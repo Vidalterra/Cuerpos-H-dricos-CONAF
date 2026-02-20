@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "aerodromos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 60, "AERODROMOS": "Pampa Alegre", "DESCRIP": "OSORNO", "COD_COMUNA": 10301.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Osorno", "DIS_ELEC": 55, "CIR_SENA": 16 }, "geometry": { "type": "Point", "coordinates": [ -73.157510769225965, -40.548809134869828 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 66, "AERODROMOS": "Las Chinganas", "DESCRIP": "OSORNO", "COD_COMUNA": 10301.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Osorno", "DIS_ELEC": 55, "CIR_SENA": 16 }, "geometry": { "type": "Point", "coordinates": [ -72.952551741558082, -40.629112230408602 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 67, "AERODROMOS": "Chaúal Bajo", "DESCRIP": "OSORNO", "COD_COMUNA": 10301.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Osorno", "DIS_ELEC": 55, "CIR_SENA": 16 }, "geometry": { "type": "Point", "coordinates": [ -73.059227606820855, -40.610201993637865 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 59, "AERODROMOS": "Juan Kemp", "DESCRIP": "PUERTO OCTAY", "COD_COMUNA": 10302.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Puerto Octay", "DIS_ELEC": 56, "CIR_SENA": 17 }, "geometry": { "type": "Point", "coordinates": [ -72.367650323430084, -40.886379292222863 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 63, "AERODROMOS": "Nochaco", "DESCRIP": "PUERTO OCTAY", "COD_COMUNA": 10302.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Puerto Octay", "DIS_ELEC": 56, "CIR_SENA": 17 }, "geometry": { "type": "Point", "coordinates": [ -72.873688323716365, -40.891880200573979 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 61, "AERODROMOS": "Corte Alto", "DESCRIP": "PURRANQUE", "COD_COMUNA": 10303.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Purranque", "DIS_ELEC": 56, "CIR_SENA": 17 }, "geometry": { "type": "Point", "coordinates": [ -73.167787169482267, -40.940599226293493 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 69, "AERODROMOS": "Ñilque", "DESCRIP": "PUYEHUE", "COD_COMUNA": 10304.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "Puyehue", "DIS_ELEC": 56, "CIR_SENA": 17 }, "geometry": { "type": "Point", "coordinates": [ -72.425697395325088, -40.72925097819919 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 68, "AERODROMOS": "Los Robles", "DESCRIP": "SAN PABLO", "COD_COMUNA": 10307.0, "CATEGORÍA": "Aeródromo", "NOM_REG": "Región de Los Lagos", "NOM_PROV": "Osorno", "NOM_COM": "San Pablo", "DIS_ELEC": 55, "CIR_SENA": 16 }, "geometry": { "type": "Point", "coordinates": [ -73.183199236120714, -40.369561531400038 ] } }
+]
+}
