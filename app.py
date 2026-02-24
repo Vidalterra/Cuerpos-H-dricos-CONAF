@@ -97,7 +97,7 @@ folium.TileLayer(
 # 1. Cuerpos Permanentes (Azul) - OPTIMIZADO
 folium.GeoJson(
     cuerpos_perm,
-    name="Cuerpos Permanentes (Invierno/Todo el año)",
+    name="Cuerpos Permanentes (Todo el año)",
     smooth_factor=2.0,  # <-- Simplifica la geometría al alejar el mapa
     style_function=lambda x: {'fillColor': 'blue',
                               'color': 'blue', 'weight': 1, 'fillOpacity': 0.7}
@@ -106,7 +106,7 @@ folium.GeoJson(
 # 2. Cuerpos Estivales (Rojo) - OPTIMIZADO
 folium.GeoJson(
     cuerpos_estiv,
-    name="Cuerpos Estivales (Solo Verano)",
+    name="Cuerpos Estacionales (Solo Invierno)",
     smooth_factor=2.0,  # <-- Simplifica la geometría al alejar el mapa
     style_function=lambda x: {'fillColor': 'red',
                               'color': 'red', 'weight': 1, 'fillOpacity': 0.7}
@@ -145,3 +145,4 @@ st.markdown(f"""
     <div>Mapa de Recursos Hídricos y Accesibilidad · Chile 2026 · CONAF · Autor: Alumno en Práctica Francisco Vidal</div>
 </div>
 """, unsafe_allow_html=True)
+
